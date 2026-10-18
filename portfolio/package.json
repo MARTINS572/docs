@@ -1,0 +1,15 @@
+{
+  "name": "martins-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio Martins | Criação de Sites — site estático, sem dependências em produção.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node tests/e2e.mjs",
+    "images": "node scripts/generate-images.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}
